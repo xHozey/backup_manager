@@ -141,7 +141,7 @@ def main():
         case "backups":
             backups()
         case _:
-            print("wrong arg")
+            logger.error("unknown argument: " + sys.argv[1])
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
