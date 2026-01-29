@@ -25,3 +25,25 @@
 [2026-01-29 15:37:13] [ERROR] can't find schedule at index 1
 [2026-01-29 16:07:37] [INFO] Show backups list
 [2026-01-29 16:07:46] [ERROR] can't find backups directory
+[2026-01-29 16:16:53] [INFO] backup_service started
+[2026-01-29 16:16:57] [ERROR] backup_service is already running
+[2026-01-29 16:17:26] [ERROR] malformed schedule: testfolder
+[2026-01-29 16:17:36] [INFO] New schedule added: testfolder;16:18;test
+[2026-01-29 16:19:41] [INFO] New schedule added: testfolder;16:20;test
+[2026-01-29 16:20:25] [INFO] backup_service stopped
+[2026-01-29 16:20:29] [INFO] backup_service started
+[2026-01-29 16:21:01] [INFO] New schedule added: test.txt;16:21;backtest
+[2026-01-29 16:22:09] [INFO] backup_service stopped
+[2026-01-29 16:22:12] [INFO] backup_service started
+[2026-01-29 16:23:15] [INFO] backup_service started
+[2026-01-29 16:23:40] [ERROR] malformed schedule: test.txt
+[2026-01-29 16:23:45] [INFO] New schedule added: test.txt;16:24;backuptest
+[2026-01-29 16:25:54] [INFO] backup_service stopped
+[2026-01-29 16:25:56] [INFO] backup_service started
+[2026-01-29 16:26:03] [INFO] New schedule added: test.txt;16:26;backuptest
+[2026-01-29 16:26:42] [INFO] New schedule added: test.txt;16:27;backuptest
+[2026-01-29 16:29:16] [INFO] backup_service stopped
+[2026-01-29 16:29:18] [INFO] backup_service started
+[2026-01-29 16:29:25] [INFO] New schedule added: test.txt;16:29;backuptest
+[2026-01-29 16:29:55] [INFO] New schedule added: test.txt;16:30;backuptest
+[2026-01-29 16:30:48] [INFO] backup_service stopped

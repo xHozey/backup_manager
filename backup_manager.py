@@ -3,8 +3,10 @@ import subprocess
 import datetime
 import os
 
-BACKUP_SCHEDULER_FILE = "backup_scheduler.txt"
+BACKUP_SCHEDULER_FILE = "backup_schedules.txt"
 BACKUP_MANAGER_LOG = "./logs/backup_manager.log"
+if os.path.exists('./logs') is False:
+    os.mkdir('./logs')
 class Logger:
     def __init__(self, log_path=BACKUP_MANAGER_LOG):
         self.log_path = log_path

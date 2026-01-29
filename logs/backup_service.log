@@ -1,0 +1,23 @@
+[2026-01-29 16:16:53] [ERROR] can't find backup_schedules.txt
+[2026-01-29 16:18:23] [INFO] Starting backup for testfolder to test
+
+[2026-01-29 16:18:23] [INFO] Backup completed for testfolder to test
+
+[2026-01-29 16:20:29] [INFO] Starting backup for testfolder to test
+[2026-01-29 16:20:29] [ERROR] Backup failed for testfolder to test: [Errno 2] No such file or directory: 'backups/test'
+[2026-01-29 16:21:14] [INFO] Starting backup for test.txt to backtest
+[2026-01-29 16:21:14] [ERROR] Backup failed for test.txt to backtest: [Errno 2] No such file or directory: 'backups/backtest'
+[2026-01-29 16:21:59] [INFO] Starting backup for test.txt to backtest
+[2026-01-29 16:21:59] [ERROR] Backup failed for test.txt to backtest: [Errno 2] No such file or directory: 'backups/backtest'
+[2026-01-29 16:24:00] [INFO] Starting backup for test.txt to backuptest
+[2026-01-29 16:24:00] [INFO] Backup completed for test.txt to backuptest
+[2026-01-29 16:24:45] [INFO] Starting backup for test.txt to backuptest
+[2026-01-29 16:24:45] [INFO] Backup completed for test.txt to backuptest
+[2026-01-29 16:26:41] [INFO] Starting backup for test.txt to backuptest
+[2026-01-29 16:26:41] [INFO] Backup completed for test.txt to backuptest
+[2026-01-29 16:27:26] [INFO] Starting backup for test.txt to backuptest
+[2026-01-29 16:27:26] [INFO] Backup completed for test.txt to backuptest
+[2026-01-29 16:30:03] [INFO] Starting backup for test.txt to backuptest
+[2026-01-29 16:30:03] [INFO] Backup completed for test.txt to backuptest
+[2026-01-29 16:30:48] [INFO] Starting backup for test.txt to backuptest
+[2026-01-29 16:30:48] [INFO] Backup completed for test.txt to backuptest
